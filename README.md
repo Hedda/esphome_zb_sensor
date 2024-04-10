@@ -21,6 +21,8 @@ ESPHome Zigbee sensor connected to [AHT10 Temperature+Humidity Sensor](https://n
 * We will build [ZB_sensor.yaml](ZB_sensor.yaml) file.
 * Check [Getting Started with the ESPHome Command Line](https://esphome.io/guides/getting_started_command_line.html) tutorial to setup your dev environment.
 
+Note! It is always a good idea to erase the complete flash before flashing.
+
 **Steps**
 * Change the [AHTx0 variant](https://esphome.io/components/sensor/aht10.html) in [ZB_sensor.yaml](ZB_sensor.yaml) file according to the sensor you have
 * Build with `esphome run ZB_sensor.yaml` command will fail
